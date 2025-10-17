@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javohirbek - Web Developer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        nav { background: rgba(255,255,255,0.1); padding: 1rem 0; position: fixed; width: 100%; top: 0; }
+        .hero { min-height: 100vh; display: flex; align-items: center; text-align: center; padding-top: 80px; }
+        .cta-button { background: #ffd700; color: #333; padding: 12px 30px; border: none; border-radius: 5px; cursor: pointer; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; }
+        .skill-card { background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 10px; text-align: center; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo" style="font-size: 1.5rem; font-weight: bold; color: #ffd700;">Javohirbek</div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">Hello, I'm <span style="color: #ffd700;">Javohirbek</span></h1>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">Web Developer & Excel Specialist</p>
+            <p style="margin-bottom: 2rem;">I create beautiful, responsive websites and powerful Excel solutions</p>
+            <button class="cta-button">View My Work</button>
+        </div>
+    </section>
+
+    <section style="padding: 80px 0; background: rgba(255,255,255,0.1);">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem; font-size: 2.5rem;">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML/CSS</h3>
+                    <p>Modern, responsive web design</p>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Interactive web applications</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Excel Expert</h3>
+                    <p>Data analysis & automation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
